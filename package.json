@@ -1,0 +1,24 @@
+{
+  "name": "ProjectNode_Tdd",
+  "version": "1.0.0",
+  "description": "Implementando uma camada de teste, adquirindo conhecimento prático em teste das aplicações",
+  "main": "index.js",
+  "author": "Ruan Rita",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.12.0-alpha.1"
+  },
+  "devDependencies": {
+    "jest": "^27.4.3",
+    "nodemon": "^2.0.15",
+    "sequelize-cli": "^6.3.0"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js --ignore __tests__",
+    "start": "node src/server.js",
+    "test": "jest"
+  }
+}
